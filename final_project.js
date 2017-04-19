@@ -1,6 +1,7 @@
 var namespace = "http://www.w3.org/2000/svg"
 
 // Write your code here!
+makeImage("http://confectionsofacottonpickinqueen.com/wp-content/uploads/2014/06/Dollarphotoclub_540377071.jpg", 5, 2, 190, 130)
 
 // DO NOT EDIT CODE BELOW THIS LINE!
 function getX(shape) {
