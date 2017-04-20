@@ -1,7 +1,25 @@
 var namespace = "http://www.w3.org/2000/svg"
 
 // Write your code here!
-makeImage("http://confectionsofacottonpickinqueen.com/wp-content/uploads/2014/06/Dollarphotoclub_540377071.jpg", 5, 2, 190, 130)
+
+function home() {
+  document.querySelector("body").setAttribute("style", "background: url(http://confectionsofacottonpickinqueen.com/wp-content/uploads/2014/06/Dollarphotoclub_540377071.jpg)")
+  document.getElementById("one").setAttribute("style", "display: block;")
+  document.getElementById("two").setAttribute("style", "display: none;")
+  document.getElementById("three").setAttribute("style", "display: none;")
+}
+function R() {
+  document.querySelector("body").setAttribute("style", "background: url(http://www.squashbanana.co.uk/files/Background_Lena-Rose-Bakery_Website.jpg)")
+ document.getElementById("one").setAttribute("style", "display: none;")
+  document.getElementById("two").setAttribute("style", "display: block;")
+  document.getElementById("three").setAttribute("style", "display: none;")
+}
+function V() {
+  document.querySelector("body").setAttribute("style", "background: url(https://vignette4.wikia.nocookie.net/joke-battles/images/5/5a/Black.jpg/revision/latest?cb=20161223050425)")
+document.getElementById("one").setAttribute("style", "display: none;")
+  document.getElementById("two").setAttribute("style", "display: none;")
+  document.getElementById("three").setAttribute("style", "display: block;")
+}
 
 // DO NOT EDIT CODE BELOW THIS LINE!
 function getX(shape) {
