@@ -1,3 +1,19 @@
 h1{
 	text-align: center;
 }
+
+h1{
+    font-family: 'Oleo Script', cursive;
+}
+
+h2{
+    font-family: 'Allura', cursive;
+}
+
+p {
+  color: snow;
+  background-color: lightpink;
+  border: 5px solid red;
+  padding: 10px;
+  width: 300px;
+}
