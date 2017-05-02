@@ -15,7 +15,7 @@ function R() {
   document.getElementById("three").setAttribute("style", "display: none;")
 }
 function V() {
-  document.querySelector("body").setAttribute("style", "background: url(https://vignette4.wikia.nocookie.net/joke-battles/images/5/5a/Black.jpg/revision/latest?cb=20161223050425wwq    2)")
+  document.querySelector("body").setAttribute("style", "background: url(https://vignette4.wikia.nocookie.net/joke-battles/images/5/5a/Black.jpg/revision/latest?cb=20161223050425wwq2)")
 document.getElementById("one").setAttribute("style", "display: none;")
   document.getElementById("two").setAttribute("style", "display: none;")
   document.getElementById("three").setAttribute("style", "display: block;")
